@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="scss/style.css" rel="stylesheet" />
+
+    <!-- bootstrap icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <!-- slick slider -->
+    <!-- slick css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./js/app.js" type="module"></script>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+      rel="stylesheet"
+    /> -->
+
+    <title>cafe</title>
+  </head>
+  <body>
+    <!-- back top top btn-->
+    <button
+      type="button"
+      class="btn btn-danger btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- btn end -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+            <a href="/index.html" class="nav-item nav-link">Home</a>
+            <a href="pages/menu.html" class="nav-item nav-link">Menu</a>
+            <a href="pages/blog.html" class="nav-item nav-link">Blog</a>
+            <a
+              href="pages/contacts.html"
+              class="nav-item nav-link"
+              tabindex="-1"
+              >Contact Us</a
+            >
+          </div>
+          <!-- <div class="navbar-nav ms-auto">
+            <a href="#" class="nav-item nav-link">Login</a>
+          </div> -->
+        </div>
+        <a href="#" class="navbar-brand">
+          <img src="/assets/logo.png" height="28" alt="CoolBrand" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="nav-item nav-link"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="nav-item nav-link"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- body section -->
+
+    <div class="mainBg">
+      <div class="container content">
+        <h5>WINE AND DINNER</h5>
+        <h1>RESTAURANT</h1>
+        <p>
+          The favorite place for steaks. <br />
+          Mature minimum of 28 days in appropriate conditions.
+        </p>
+        <div>
+          <button>MAKE RESERVATION</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- section spcl recipes  -->
+    <section class="spclRecipes">
+      <div class="container">
+        <h5>FROM OUR BLOG</h5>
+        <h2>SPECIAL RECIPES</h2>
+        <p>
+          Our reputable restaurant is ready to satisfy even your most
+          sophisticated taste. Top cooks from all over the world visit and cook
+          for you your best specialties for a week. Come and enjoy delicious
+          delicacies.
+        </p>
+        <div class="spclImgs">
+          <div class="img"><img src="./assets/spclImg1.png" /></div>
+          <div class="img"><img src="./assets/spclImg2.png" /></div>
+        </div>
+        <p>CHEF JOHN DOE</p>
+        <div class="sign">
+          <img src="./assets/sign.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section products -->
+    <section class="products">
+      <div class="container contentP">
+        <div class="text">
+          <h5>TASTY AND HEALTHY</h5>
+          <h2>PRODUCTS</h2>
+          <p>
+            We use only selected products to maintain the high level of our
+            cuisine. The best and fresh spices contribute to the taste of the
+            dishes we make and their right combination is a guarantee of
+            excellent results.
+          </p>
+          <button>VIEW OUR BLOG</button>
+        </div>
+        <div>
+          <img src="./assets/vegetables.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section testimonial -->
+    <section class="testimonial">
+      <span class="overlay"></span>
+      <div class="container slider">
+        <div class="sliderContent">
+          <p>
+            I recommend this place. I like the atmosphere and the food, the good
+            service and the rich menu. You really did manage to satisfy my taste
+            by offering me delicious food and good wine! I thank the owner and
+            the staff for the great outing.
+          </p>
+          <div
+            class="d-flex justify-content-center align-items-center mb-5 mt-5"
+          >
+            <div class="testimonialImg">
+              <img src="./assets/testimonial-3.webp" />
+            </div>
+            <span>Damian Doe</span>
+          </div>
+        </div>
+        <div class="sliderContent">
+          <p>
+            I recommend this place. I like the atmosphere and the food, the good
+            service and the rich menu. You really did manage to satisfy my taste
+            by offering me delicious food and good wine! I thank the owner and
+            the staff for the great outing.
+          </p>
+          <div
+            class="d-flex justify-content-center align-items-center mb-5 mt-5"
+          >
+            <div class="testimonialImg">
+              <img src="./assets/testimonial-3.webp" />
+            </div>
+            <span>Damian Doe</span>
+          </div>
+        </div>
+        <div class="sliderContent">
+          <p>
+            I recommend this place. I like the atmosphere and the food, the good
+            service and the rich menu. You really did manage to satisfy my taste
+            by offering me delicious food and good wine! I thank the owner and
+            the staff for the great outing.
+          </p>
+          <div
+            class="d-flex justify-content-center align-items-center mb-5 mt-5"
+          >
+            <div class="testimonialImg">
+              <img src="./assets/testimonial-3.webp" />
+            </div>
+            <span>Damian Doe</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section main dishes -->
+    <section class="dishes">
+      <div class="container">
+        <div class="dishesTitle">
+          <h5>TASTY AND HEALTHY</h5>
+          <h2>MAIN DISHES</h2>
+          <p>
+            Try our specialties. <br />
+            ‌ We go to a restaurant to try something delicious and different
+            that can’t cook at <br />home.
+          </p>
+        </div>
+        <div class="dishesName">
+          <div class="d-flex justify-content-center gap-4">
+            <div>
+              <h3>MUSSALES SOUP</h3>
+              <hr />
+              <p>Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <span>$ 23.00</span>
+          </div>
+          <div class="d-flex justify-content-center gap-4">
+            <div>
+              <h3>MUSSALES SOUP</h3>
+              <hr />
+              <p>Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <span>$ 23.00</span>
+          </div>
+          <div class="d-flex justify-content-center gap-4">
+            <div>
+              <h3>MUSSALES SOUP</h3>
+              <hr />
+              <p>Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <span>$ 23.00</span>
+          </div>
+          <div class="d-flex justify-content-center gap-4">
+            <div>
+              <h3>MUSSALES SOUP</h3>
+              <hr />
+              <p>Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <span>$ 23.00</span>
+          </div>
+          <div class="d-flex justify-content-center gap-4">
+            <div>
+              <h3>MUSSALES SOUP</h3>
+              <hr />
+              <p>Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <span>$ 23.00</span>
+          </div>
+          <div class="d-flex justify-content-center gap-4">
+            <div>
+              <h3>MUSSALES SOUP</h3>
+              <hr />
+              <p>Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <span>$ 23.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- figure imgs -->
+    <section class="figureImgs">
+      <div class="container">
+        <div class="figureContent">
+          <div>
+            <div class="figimg"><img src="./assets/feature_1.png" /></div>
+            <h3>FRESH INGREDIENTS</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div>
+            <div class="figimg"><img src="./assets/feature_2.png" /></div>
+            <h3>HEALTHY MEALS</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div>
+            <div class="figimg"><img src="./assets/feature_3.png" /></div>
+            <h3>MEDITERANEAN TASTE</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div>
+            <div class="figimg"><img src="./assets/feature_4.png" /></div>
+            <h3>EATING WELL</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reservation form section -->
+    <section class="form">
+      <span class="overlay"></span>
+      <div class="container">
+        <div class="formTitle">
+          <h5>RESERVATION ONLINE</h5>
+          <h2>RESERVATIONS</h2>
+          <p>
+            Our menu is prepared by the special advice of Cheff Manchev. <br />
+            All the products we use to prepare the dishes are environmentally
+            friendly, <br />
+            healthy and delicious.
+          </p>
+        </div>
+        <form>
+          <div class="formFields">
+            <input type="text" placeholder="YOUR NAME" />
+            <input type="phone" placeholder="PHONE" />
+            <input type="date" placeholder="DATE" />
+            <input type="time" placeholder="8:00 PM" />
+            <input type="text" placeholder="SEATS" />
+            <input type="email" placeholder="E-MAIL ADDRESS" />
+          </div>
+          <div class="msg">
+            <input type="message" placeholder="TYPE YOUR MESSAGE HERE" />
+          </div>
+          <div class="formBtn">
+            <button>RESERVE</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- vertical tabs -->
+
+    <section class="tabs">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <!-- Tab navs -->
+            <div
+              class="nav flex-column nav-pills text-center"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link active"
+                id="v-pills-link1-tab"
+                data-mdb-toggle="pill"
+                href="#v-pills-link1"
+                role="tab"
+                aria-controls="v-pills-link1"
+                aria-selected="true"
+                >CHEESE <br />
+                CROISSANTS</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-link2-tab"
+                data-mdb-toggle="pill"
+                href="#v-pills-link2"
+                role="tab"
+                aria-controls="v-pills-link2"
+                aria-selected="false"
+                >ICE CREAM</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-link3-tab"
+                data-mdb-toggle="pill"
+                href="#v-pills-link3"
+                role="tab"
+                aria-controls="v-pills-link3"
+                aria-selected="false"
+                >GREECE TIRAMISU</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-link4-tab"
+                data-mdb-toggle="pill"
+                href="#v-pills-link4"
+                role="tab"
+                aria-controls="v-pills-link4"
+                aria-selected="false"
+                >ARABIC CODRIT <br />
+                CADIR</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-link5-tab"
+                data-mdb-toggle="pill"
+                href="#v-pills-link5"
+                role="tab"
+                aria-controls="v-pills-link5"
+                aria-selected="false"
+                >CYPRUS KUNEFE</a
+              >
+            </div>
+            <!-- Tab navs -->
+          </div>
+
+          <div class="col-9">
+            <!-- Tab content -->
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-link1"
+                role="tabpanel"
+                aria-labelledby="v-pills-link1-tab"
+              >
+                <div class="tabContent d-flex">
+                  <div class="col-8">
+                    <h3>Cheese croissants</h3>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. been the industry's standard dummy
+                      text ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                      <br />
+                      <br />
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged. It was popularised in the 1960s with the
+                      release of Letraset sheets containing Lorem Ipsum
+                      passages.
+                    </p>
+                  </div>
+                  <div class="col-4"><img src="/assets/tab1.png" /></div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-link2"
+                role="tabpanel"
+                aria-labelledby="v-pills-link2-tab"
+              >
+                <div class="tabContent d-flex">
+                  <div>
+                    <h3>Ice cream</h3>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. been the industry's standard dummy
+                      text ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                      <br />
+                      <br />
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged. It was popularised in the 1960s with the
+                      release of Letraset sheets containing Lorem Ipsum
+                      passages.
+                    </p>
+                  </div>
+                  <div><img src="/assets/tab1.png" /></div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-link3"
+                role="tabpanel"
+                aria-labelledby="v-pills-link3-tab"
+              >
+                <div class="tabContent d-flex">
+                  <div>
+                    <h3>Greece tiramisu</h3>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. been the industry's standard dummy
+                      text ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                      <br />
+                      <br />
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged. It was popularised in the 1960s with the
+                      release of Letraset sheets containing Lorem Ipsum
+                      passages.
+                    </p>
+                  </div>
+                  <div><img src="/assets/tab1.png" /></div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-link4"
+                role="tabpanel"
+                aria-labelledby="v-pills-link4-tab"
+              >
+                <div class="tabContent d-flex">
+                  <div>
+                    <h3>Arabic Codrit Cadir</h3>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. been the industry's standard dummy
+                      text ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                      <br />
+                      <br />
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged. It was popularised in the 1960s with the
+                      release of Letraset sheets containing Lorem Ipsum
+                      passages.
+                    </p>
+                  </div>
+                  <div><img src="/assets/tab1.png" /></div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-link5"
+                role="tabpanel"
+                aria-labelledby="v-pills-link5-tab"
+              >
+                <div class="tabContent d-flex">
+                  <div>
+                    <h3>Cyprus kunefe</h3>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. been the industry's standard dummy
+                      text ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                      <br />
+                      <br />
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged. It was popularised in the 1960s with the
+                      release of Letraset sheets containing Lorem Ipsum
+                      passages.
+                    </p>
+                  </div>
+                  <div><img src="/assets/tab1.png" /></div>
+                </div>
+              </div>
+            </div>
+            <!-- Tab content -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section -->
+    <section class="gallery">
+      <div class="multipleItems">
+        <div><img src="/assets/g-1.webp" /></div>
+        <div><img src="/assets/g-2.webp" /></div>
+        <div><img src="/assets/g-3.webp" /></div>
+        <div><img src="/assets/g-4.webp" /></div>
+        <div><img src="/assets/g-5.webp" /></div>
+        <div><img src="/assets/g-6.webp" /></div>
+        <div><img src="/assets/g-3.webp" /></div>
+        <div><img src="/assets/g-1.webp" /></div>
+        <div><img src="/assets/g-4.webp" /></div>
+      </div>
+    </section>
+
+    <!-- our chef -->
+    <section class="products cheff">
+      <div class="container contentP">
+        <div class="text chefftext">
+          <h5>TASTY AND HEALTHY</h5>
+          <h2>OUR CHEFF</h2>
+          <p>
+            Our menu is prepared by the special advice of Cheff Manchev. All the
+            products we use to prepare the dishes are environmentally friendly,
+            healthy and delicious.
+          </p>
+          <button class="ourCheffBtn">VIEW OUR BLOG</button>
+        </div>
+        <div class="cheffImg">
+          <img src="./assets/chef_1.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs -->
+    <section class="blogs">
+      <div class="container">
+        <div class="blogContent">
+          <h5>FROM OUR BLOG</h5>
+          <h2>SPECIAL RECIPES</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedolorm
+            reminusto <br />
+            doeiusmod tempor incidition ulla mco laboris nisi ut aliquip ex ea
+            commo condorico <br />consectetur adipiscing elitut aliquip.
+          </p>
+        </div>
+        <div class="blogsImgs">
+          <div class="borderB">
+            <a>
+              <img src="/assets/blog1.webp" />
+              <h3>
+                How to Prepare Sushi. 100 unique ways of preparing Japanese
+                sushi
+              </h3>
+              <p>
+                This text is set by default and is suitable for edit in real
+                time. By default the drag and drop core feature will allow…
+              </p>
+            </a>
+          </div>
+          <div class="borderB">
+            <a>
+              <img src="/assets/blog2.webp" />
+              <h3>
+                How to Prepare Sushi. 100 unique ways of preparing Japanese
+                sushi
+              </h3>
+              <p>
+                This text is set by default and is suitable for edit in real
+                time. By default the drag and drop core feature will allow…
+              </p>
+            </a>
+          </div>
+          <div class="borderB">
+            <a>
+              <img src="/assets/blog3.webp" />
+              <h3>
+                How to Prepare Sushi. 100 unique ways of preparing Japanese
+                sushi
+              </h3>
+              <p>
+                This text is set by default and is suitable for edit in real
+                time. By default the drag and drop core feature will allow…
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footerContent">
+          <div><p>TWITTER FEED</p></div>
+          <div>
+            <img src="/assets/logo.png" />
+            <div class="footerContact">
+              Orders for parties, requests <br />for meals day ahead.
+              <br />
+              <br />
+              <span> +359 878 123456,</span>
+              <span>+359 889 321 654</span>
+              <span> info@theplace.email Sofia 1000,</span>
+              <span>Bulgaria. Main Street 99</span>
+            </div>
+          </div>
+          <div>
+            <p>SOCIAL NETWORKS</p>
+          </div>
+        </div>
+        <p class="copyright">
+          Website Builder by Microweber. All rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".slider").slick({
+        dots: true,
+        infinite: false,
+        speed: 700,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+    <script>
+      $(".multipleItems").slick({
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+    <!--  -->
+    <script src="./js/backToTopBtn.js"></script>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+    ></script>
+  </body>
+</html>
